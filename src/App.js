@@ -1,6 +1,7 @@
 
 import { useState } from 'react';
 import './App.css';
+import Clock from './clock/clock';
 
 function App() {
   const initialTodo = [
@@ -29,6 +30,8 @@ function App() {
 
   return (
     <div className="App">
+      <Clock timezone={14400} /> 
+      <hr />
       <button onClick={() => setTodos(initialTodo)}>↻</button>
       <input type="text" placeholder='todo...' value={todoValue} onChange={(e) => settodoValue(e.target.value)} />
       <button onClick={handleAdd}>add</button>
