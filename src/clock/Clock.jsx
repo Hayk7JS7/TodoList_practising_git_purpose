@@ -1,6 +1,6 @@
 import React from 'react';
 import {useState, useEffect} from 'react';
-import Structureclock from './Structureclock';
+import Structureclock from './ClockStructure';
 
 
 const Clock = ({timezone}) => {

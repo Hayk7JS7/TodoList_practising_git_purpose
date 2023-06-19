@@ -1,5 +1,5 @@
 import React from 'react'
-import './clocks.css';
+import './Clock.css';
 
 const Structureclock = ({hourhand, minuteshand, sechand}) => {
     return (
