@@ -1,7 +1,6 @@
-
 import { useState } from 'react';
-import './App.css';
 import Clock from './clock/clock';
+import './App.css';
 
 function App() {
   const initialTodo = [
